@@ -17,6 +17,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -134,13 +135,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setup_wifi</b> (void)
 <tr class="separator:a577f28c6d870b5b9f1c4510d8195094a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This program is the header for the WiFi communication webpage</p>
+<div class="textblock"><p >This program is the header for the SMART Reel webpage.</p>
 <dl class="section author"><dt>Author</dt><dd>A. Sinha </dd>
 <dd>
-JR Ridgely </dd></dl>
+JR Ridgely </dd>
+<dd>
+JR Lyons </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2022-Mar-28 Original stuff by Sinha </dd>
 <dd>
-2022-Nov-04 Modified for ME507 use by Ridgely </dd></dl>
+2022-Nov-04 Modified for ME507 use by Ridgely </dd>
+<dd>
+2022-Nov-30 Modified for SMART Reel specific use by Lyons. </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>2022 by the authors, released under the MIT License. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="ab63a0286a57525f6410a10052d6f8d75" name="ab63a0286a57525f6410a10052d6f8d75"></a>
@@ -160,6 +165,7 @@ JR Ridgely </dd></dl>
 </div><div class="memdoc">
 
 <p>Spin motor in pattern 2 when called by the web server. </p>
+<p >Pattern 2 of the motor is to imitate a crawdad bait, where the bait cycles between quick jerks, slow walks, and pauses in motion. <code><a href="http://server.address/crawdad_bait">http://server.address/crawdad_bait</a></code> as the web address request from a browser.</p>
 <p >Pattern 2 of the motor is to imitate a crawdad bait, where the bait jerks and holds in a repeating pattern. <code><a href="http://server.address/crawdad_bait">http://server.address/crawdad_bait</a></code> as the web address request from a browser. </p>
 
 </div>
@@ -201,7 +207,7 @@ JR Ridgely </dd></dl>
 </div><div class="memdoc">
 
 <p>Toggle blue LED when called by the web server. </p>
-<p >For testing purposes, this function turns the little blue LED on a 38-pin ESP32 board on and off. It is called when someone enters <code><a href="http://server.address/toggle">http://server.address/toggle</a></code> as the web address request from a browser. </p>
+<p >This function exists as a testing task to verify connectivity by turning a blue LED on and off. <code><a href="http://server.address/fish_on">http://server.address/fish_on</a></code> as the web address request from a browser. </p>
 
 </div>
 </div>
@@ -222,6 +228,7 @@ JR Ridgely </dd></dl>
 </div><div class="memdoc">
 
 <p>Spin motor in pattern 1 (continuous) when called by the web server. </p>
+<p >Pattern 1 of the motor is to imitate a minnow bait, where the bait "swims" in a continuous, slow motion. <code><a href="http://server.address/minnow_bait">http://server.address/minnow_bait</a></code> as the web address request from a browser.</p>
 <p >Pattern 1 of the motor is to imitate a minnow bait, where the bait "swims" in a continuous motion, shows up when <code><a href="http://server.address/minnow_bait">http://server.address/minnow_bait</a></code> as the web address request from a browser. </p>
 
 </div>
@@ -264,7 +271,7 @@ JR Ridgely </dd></dl>
 </div><div class="memdoc">
 
 <p>Spin motor in pattern 3 when called by the web server. </p>
-<p >Pattern 3 of the motor is to imitate a worm bait, where the bait moves and pauses in a repeating pattern. <code><a href="http://server.address/worm_bait">http://server.address/worm_bait</a></code> as the web address request from a browser. </p>
+<p >Pattern 3 of the motor is to imitate a topwater bait, where the bait cycles between quick and slow continuous motion, to imitate a frog or duck moving on the top surface of the water. <code><a href="http://server.address/top_water_bait">http://server.address/top_water_bait</a></code> as the web address request from a browser. </p>
 
 </div>
 </div>

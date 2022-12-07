@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "SMART REEL", "index.html", [
+    [ "SMART Reel ME 507", "index.html#sec_intro", null ],
+    [ "External Documents", "index.html#sec_lb1", null ],
+    [ "Project Description", "index.html#sec_lb2", null ],
     [ "SMART_Reel", "md_src__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -40,7 +43,8 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ]
+        [ "Variables", "globals_vars.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]

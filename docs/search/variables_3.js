@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['topwater_5fflag_0',['topwater_flag',['../shares_8h.html#a83d8d812ac46b0751a3ac39a5cdabfc8',1,'shares.h']]]
+  ['pin_5f1_0',['PIN_1',['../class_motor.html#a226b6f1eed4c4b702a37af27ce78c69e',1,'Motor']]],
+  ['pin_5f2_1',['PIN_2',['../class_motor.html#afee7f57034ecd19ff23876f251f975b7',1,'Motor']]]
 ];

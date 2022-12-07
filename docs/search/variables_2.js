@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pin_5f1_0',['PIN_1',['../class_motor.html#a226b6f1eed4c4b702a37af27ce78c69e',1,'Motor']]],
-  ['pin_5f2_1',['PIN_2',['../class_motor.html#afee7f57034ecd19ff23876f251f975b7',1,'Motor']]]
+  ['minnow_5fflag_0',['minnow_flag',['../shares_8h.html#ab8c9b8efbe9f1051af4a7010977f0533',1,'shares.h']]],
+  ['minnowpin_1',['minnowPin',['../webpage_8cpp.html#a49a5531ac1243fb6b89b6dbf579ccb43',1,'webpage.cpp']]]
 ];
